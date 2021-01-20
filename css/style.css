@@ -56,7 +56,7 @@ nav ul li{
 
 .banner img{
   width: 100%;
-  height: 500px;
+  height: 800px;
   object-fit: cover;
 }
 
@@ -75,14 +75,12 @@ nav ul li{
 /* end senzione hero */
 
 /* sezione sottotitolo */
-section{
-  background-color: #588da8;
+.titolo-section{
+  margin-bottom: 10px;
 }
 
-.titolo-section{
-  height: 60px;
-  background-color: #aacfcf;
-  margin-bottom: 10px;
+.titolo-section h2{
+  font-size: 40px;
 }
 /* end sezione sottotitolo */
 
@@ -92,25 +90,28 @@ section{
   padding-bottom: 10px;
 }
 
-.col-1{
-  width: 23%;
-  height: 400px;
-  background-color: #aacfcf;
+.col-lat{
+  width: 18%;
   float: left;
 }
-.col-2{
-  width: 52%;
-  height: 400px;
-  background-color: #aacfcf;
+.col-cent{
+  width: 62%;
   float: left;
   margin: 0 1%;
 }
-.col-3{
-  width: 23%;
-  height: 400px;
-  background-color: #aacfcf;
-  float: left;
+
+.col-lat img{
+  width: 100%;
+  height: 350px;;
+  object-fit: cover;
 }
+.col-cent img{
+  width: 100%;
+  height: 350px;;
+  object-fit: cover;
+}
+
+
 /* end sezione colonne */
 
 footer{
