@@ -50,7 +50,6 @@ nav ul li{
 
 .banner{
   position: relative;
-  background-color: #f9d89c;
   margin-bottom: 10px;
 }
 
@@ -75,7 +74,7 @@ nav ul li{
 /* end senzione hero */
 
 /* sezione sottotitolo */
-.titolo-section{
+.title-section{
   margin-bottom: 10px;
 }
 
@@ -88,13 +87,16 @@ nav ul li{
 .row{
   margin-bottom: 10px;
   padding-bottom: 10px;
+  position: relative;
 }
 
 .col-lat{
   width: 18%;
   float: left;
+  position: relative;
 }
 .col-cent{
+  position: relative;
   width: 62%;
   float: left;
   margin: 0 1%;
@@ -104,17 +106,27 @@ nav ul li{
   width: 100%;
   height: 350px;;
   object-fit: cover;
+  position: relative;
 }
 .col-cent img{
   width: 100%;
   height: 350px;;
   object-fit: cover;
+  position: relative;
+}
+
+.over{
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 3;
+  border-radius: 30px;
 }
 
 
 /* end sezione colonne */
 
 footer{
-  height: 40px;
-  background-color: #8b5e83;
+  text-align: center;
 }
