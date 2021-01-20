@@ -19,10 +19,21 @@ body{
 
 /* sezione titolo */
 .titolo{
-  height: 80px;
-  background-color: #ffc1b6;
   margin-bottom: 10px;
 }
+
+.titolo img{
+  height: 80px;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
 /* end sezione titolo */
 
 /* senzione hero */
