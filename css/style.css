@@ -26,6 +26,7 @@ body{
   height: 80px;
   padding-right: 10px;
   border-right: 1px solid black;
+  margin-bottom: 30px;
 }
 
 nav ul li{
@@ -38,10 +39,16 @@ nav ul li{
 
 /* senzione hero */
 .banner{
-  height: 400px;
   background-color: #f9d89c;
   margin-bottom: 10px;
 }
+
+.banner img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
 /* end senzione hero */
 
 /* sezione sottotitolo */
