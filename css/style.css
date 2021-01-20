@@ -39,6 +39,7 @@ nav ul li{
 
 /* senzione hero */
 .banner{
+  position: relative;
   background-color: #f9d89c;
   margin-bottom: 10px;
 }
@@ -48,6 +49,18 @@ nav ul li{
   height: 500px;
   object-fit: cover;
 }
+
+.text-banner{
+  width: 40%;
+  position: absolute;
+  bottom: 15%;
+  left: 5%;
+}
+
+.text-banner h3{
+  font-size: 30px;
+}
+
 
 /* end senzione hero */
 
